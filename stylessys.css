@@ -1,0 +1,189 @@
+@font-face {
+    font-family: 'Dash';
+    src: url(fonts/Dash-Dermo.ttf);
+    font-style: normal;
+    font-weight: 100;
+}
+html {
+    background: url(https://ik.imagekit.io/jcborer/background_guDY67zX9.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+    font-weight: bold;    
+}
+
+.logo {
+    margin: auto auto;
+    display: flex;
+    justify-content: space-around;
+    max-width: 100%;
+    height: auto;
+    padding-top: 25px;
+}
+
+
+/* social media links */
+.s-m {
+    margin: auto 30%;
+    justify-content: space-around;
+    display: flex;
+    max-width: 1000px;
+    padding-top: 25px;
+}
+
+.s-m a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #e8f700;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    transition: 0.4s all;
+    line-height: 50px;
+    cursor: pointer;
+    background: #000000;
+    border-radius: 50%;
+}
+
+
+.s-m a:hover{
+    transform: scale3d(1.3, 1.3, 1.3);
+  }
+
+.s-m #facebook:hover {
+    color: #3b5998;
+}
+
+.s-m #instagram:hover {
+    color: #8a3ab9;
+}
+
+.s-m #twitter:hover {
+    color: #1DA1F2;
+}
+
+.s-m #youtube:hover {
+    color:#FF0000;
+}
+
+/* merch */  
+.container {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    padding-top: 50px;
+}
+
+.container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container .shop-btn {
+    position: absolute;
+    text-decoration: none;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    border: 2px solid white;
+    background-color:black;
+    opacity: .9;
+    color: white;
+    font-size: 16px;
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.shop-btn:hover {
+    background-color: white;
+    opacity: .9;
+    color: black;
+    cursor: pointer;
+}
+
+.stream {
+    margin: auto 30%;
+    justify-content: center;
+    display: flex;
+    max-width: 1000px;
+    padding-top: 25px;
+    height: 100%;
+    padding-bottom: 25px;
+}
+
+.spotify img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.apple-music img {
+    max-width: 100%;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.tour-text {
+    text-align: center;
+    font-size: 50px;
+}
+
+.tour {
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-device-width: 480px) {
+    .header {
+        text-align: center;
+        max-width: 100%;
+        height: auto;
+        padding-top: 25px;
+    }
+
+    .logo {
+        display: inline-block;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        background: url(images/logo-mobile.png) no-repeat;
+        width: 850px; /* Width of new image */
+        height: 347px; /* Height of new image */
+        padding-left: 850px; /* Equal to width of new image */
+    }
+
+    .container {
+        padding-top: 75px;
+    }
+
+    .s-m a{
+        font-size: 30px;
+        width: 60px;
+        height: 60px;
+        line-height: 60px; 
+    }
+    
+    
+}
